@@ -1,12 +1,17 @@
 
 import './App.css'
+import LandingPage from './LandingPage';
 
 function App() {
-
+  const isLogin = false;
+  if (!isLogin) return (
+    <LandingPage></LandingPage>
+  )
 
   return (
-    <div>
 
+    <div>
+      Home page
     </div>
   )
 }

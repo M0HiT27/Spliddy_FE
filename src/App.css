@@ -1,1 +1,7 @@
 @import "tailwindcss";
+
+@theme {
+  --color-ourPurple: #5046e4;
+  --color-lightBlue : #dfe7ff;
+
+}
