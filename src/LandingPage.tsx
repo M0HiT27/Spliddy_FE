@@ -1,5 +1,5 @@
 import axios from "axios"
-const apiUrl = import.meta.env.VITE_BACKEND_ROUTE
+const apiUrl = import.meta.env.VITE_BACKEND_ROUTE;
 import { useRef, useState } from "react"
 function Signin() {
     const [isSignin, setIsSignin] = useState<boolean>(false);
